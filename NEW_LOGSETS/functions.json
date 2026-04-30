@@ -1,0 +1,42 @@
+{
+  "FUNCAO" : [ {
+    "$operation" : "MERGE",
+    "IE_LIB_CLIENTE" : "N",
+    "IE_BLOQUEADA" : "N",
+    "IE_MAXIMIZAR" : "N",
+    "IE_SITUACAO_SWING" : "I",
+    "DS_FUNCAO" : "CI San Luis",
+    "DS_ACTION" : "/cmdkltdaf8",
+    "NR_SEQ_MODULO" : "45",
+    "NR_SEQ_GRUPO_DES" : "0",
+    "IE_SITUACAO" : "A",
+    "IE_DIC_OBJETO" : "S",
+    "IE_STATUS_HTML" : "A",
+    "DT_ATUALIZACAO" : "30/04/2026 17:37:37",
+    "IE_VERSAO_USO" : "H",
+    "IE_SITUACAO_WEB" : "A",
+    "NM_USUARIO" : "lpfreitas",
+    "PR_FUNCAO_MODULO" : "0",
+    "CD_EXP_FUNCAO" : "1101382",
+    "IE_RELEVANTE_SBIS" : "N",
+    "DT_ATUALIZACAO_NREC" : "30/04/2026 17:37:37",
+    "IE_CLASSIF_PRODUTO" : "A",
+    "DS_ROTA" : "/cmdkltdaf8",
+    "IE_SCHEMATIC_ARQUIVO" : "S",
+    "DS_APLICACAO" : "Tasy",
+    "IE_REGRA_FUNCIONAMENTO" : "N",
+    "NM_USUARIO_NREC" : "lpfreitas",
+    "CD_FUNCAO" : "99905",
+    "IE_CONFIRMA_FECHAR" : "N"
+  } ],
+  "PARTNER_FUNCTION" : [ {
+    "$operation" : "MERGE",
+    "DT_ATUALIZACAO_NREC" : "30/04/2026 17:37:37",
+    "IE_PARTNER_FUNCTION" : "S",
+    "NM_USUARIO" : "lpfreitas",
+    "NR_SEQUENCIA" : "4312",
+    "NM_USUARIO_NREC" : "lpfreitas",
+    "DT_ATUALIZACAO" : "30/04/2026 17:37:37",
+    "CD_FUNCAO" : "99905"
+  } ]
+}
