@@ -1,0 +1,32 @@
+{
+  "identifier" : "CMDKLTDA",
+  "migrations" : [ {
+    "op" : "add",
+    "path" : "/",
+    "value" : {
+      "avoidMemoryLeaks" : true,
+      "dialogs" : [ ],
+      "disableDeveloperBar" : false,
+      "experimentalFeatures" : { },
+      "externalAccessItens" : {
+        "ALL_FEATURES" : [ ],
+        "SPOTLIGHT_FEATURES" : [ ]
+      },
+      "externalAcessModal" : false,
+      "featureCode" : 99905,
+      "globalPopups" : [ ],
+      "metadataToFile" : true,
+      "noDataExpressionCode" : 397569,
+      "children" : [ ],
+      "code" : 777570657,
+      "componentType" : "WSCH",
+      "description" : "Schematic - 12",
+      "objectType" : "SCHEMATIC",
+      "parentObjectCode" : 0,
+      "schematicFeatureCode" : 777570657,
+      "version" : "1.9.6"
+    }
+  } ],
+  "type" : "PARTNER",
+  "version" : "1.9.6"
+}
