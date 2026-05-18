@@ -73,9 +73,9 @@
     "DT_ATUALIZACAO" : "18/05/2026 09:42:34",
     "IE_DESC_RESULT" : "N"
   }, {
-    "$operation" : "CREATE",
+    "$operation" : "MERGE",
     "IE_TIPO_ATRIBUTO" : "NUMBER",
-    "DS_ITEM" : "ATT1",
+    "DS_ITEM" : "ATT1 editado",
     "IE_OCULTAR_RESTRICAO" : "N",
     "NR_SEQ_TIPO_LOCALIZAR" : "30209",
     "IE_IGNORAR_ACENTUACAO" : "N",
@@ -84,7 +84,7 @@
     "IE_FOCUS" : "N",
     "NM_ATRIBUTO" : "ATT1",
     "CD_EXP_ITEM" : "1",
-    "DT_ATUALIZACAO_NREC" : "18/05/2026 11:29:34",
+    "DT_ATUALIZACAO_NREC" : "18/05/2026 11:31:46",
     "IE_TIPO_SELECAO" : "",
     "IE_UTILIZA_TARJA_MAGNETICA" : "N",
     "NR_SEQ_APRESENT" : "1",
@@ -95,9 +95,9 @@
     "DT_ATUALIZACAO" : "18/05/2026 11:29:34",
     "IE_DESC_RESULT" : "N"
   }, {
-    "$operation" : "CREATE",
+    "$operation" : "MERGE",
     "IE_TIPO_ATRIBUTO" : "NUMBER",
-    "DS_ITEM" : "att2",
+    "DS_ITEM" : "att2 editado",
     "IE_OCULTAR_RESTRICAO" : "N",
     "NR_SEQ_TIPO_LOCALIZAR" : "30209",
     "IE_IGNORAR_ACENTUACAO" : "N",
@@ -106,7 +106,7 @@
     "IE_FOCUS" : "N",
     "NM_ATRIBUTO" : "ATT2",
     "CD_EXP_ITEM" : "2",
-    "DT_ATUALIZACAO_NREC" : "18/05/2026 11:29:56",
+    "DT_ATUALIZACAO_NREC" : "18/05/2026 11:31:54",
     "IE_TIPO_SELECAO" : "",
     "IE_UTILIZA_TARJA_MAGNETICA" : "N",
     "NR_SEQ_APRESENT" : "2",
