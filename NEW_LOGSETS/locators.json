@@ -51,9 +51,9 @@
     "DT_ATUALIZACAO" : "18/05/2026 09:36:35",
     "IE_DESC_RESULT" : "N"
   }, {
-    "$operation" : "CREATE",
+    "$operation" : "DELETE",
     "IE_TIPO_ATRIBUTO" : "NUMBER",
-    "DS_ITEM" : "US_ATRI",
+    "DS_ITEM" : "US_ATRI editado",
     "IE_OCULTAR_RESTRICAO" : "N",
     "NR_SEQ_TIPO_LOCALIZAR" : "30209",
     "IE_IGNORAR_ACENTUACAO" : "N",
@@ -62,7 +62,7 @@
     "IE_FOCUS" : "N",
     "NM_ATRIBUTO" : "US_ATRI",
     "CD_EXP_ITEM" : "2",
-    "DT_ATUALIZACAO_NREC" : "18/05/2026 09:42:34",
+    "DT_ATUALIZACAO_NREC" : "18/05/2026 11:26:38",
     "IE_TIPO_SELECAO" : "",
     "IE_UTILIZA_TARJA_MAGNETICA" : "N",
     "NR_SEQ_APRESENT" : "1",
