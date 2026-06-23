@@ -1,4 +1,23 @@
 {
+  "PARTNER_FUNCTION" : [ {
+    "$operation" : "MERGE",
+    "DT_ATUALIZACAO_NREC" : "30/04/2026 17:37:37",
+    "IE_PARTNER_FUNCTION" : "S",
+    "NM_USUARIO" : "lpfreitas",
+    "NR_SEQUENCIA" : "4312",
+    "NM_USUARIO_NREC" : "lpfreitas",
+    "DT_ATUALIZACAO" : "30/04/2026 17:37:37",
+    "CD_FUNCAO" : "99905"
+  }, {
+    "$operation" : "CREATE",
+    "DT_ATUALIZACAO_NREC" : "06/05/2026 17:29:33",
+    "IE_PARTNER_FUNCTION" : "S",
+    "NM_USUARIO" : "lpfreitas",
+    "NR_SEQUENCIA" : "4707",
+    "NM_USUARIO_NREC" : "lpfreitas",
+    "DT_ATUALIZACAO" : "06/05/2026 17:29:33",
+    "CD_FUNCAO" : "99911"
+  } ],
   "FUNCAO" : [ {
     "$operation" : "MERGE",
     "IE_LIB_CLIENTE" : "N",
@@ -57,24 +76,5 @@
     "NM_USUARIO_NREC" : "lpfreitas",
     "CD_FUNCAO" : "99911",
     "IE_CONFIRMA_FECHAR" : "N"
-  } ],
-  "PARTNER_FUNCTION" : [ {
-    "$operation" : "MERGE",
-    "DT_ATUALIZACAO_NREC" : "30/04/2026 17:37:37",
-    "IE_PARTNER_FUNCTION" : "S",
-    "NM_USUARIO" : "lpfreitas",
-    "NR_SEQUENCIA" : "4312",
-    "NM_USUARIO_NREC" : "lpfreitas",
-    "DT_ATUALIZACAO" : "30/04/2026 17:37:37",
-    "CD_FUNCAO" : "99905"
-  }, {
-    "$operation" : "CREATE",
-    "DT_ATUALIZACAO_NREC" : "06/05/2026 17:29:33",
-    "IE_PARTNER_FUNCTION" : "S",
-    "NM_USUARIO" : "lpfreitas",
-    "NR_SEQUENCIA" : "4707",
-    "NM_USUARIO_NREC" : "lpfreitas",
-    "DT_ATUALIZACAO" : "06/05/2026 17:29:33",
-    "CD_FUNCAO" : "99911"
   } ]
 }
