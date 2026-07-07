@@ -1,14 +1,14 @@
 {
   "changes" : [ {
     "event_info" : {
-      "date" : "18/05/2026 09:36:45",
+      "date" : "07/07/2026 13:42:39",
       "date_format" : "dd/mm/rrrr hh24:mi:ss",
       "dml_operation" : "INSERT",
-      "sequence" : 500011,
+      "sequence" : 500010,
       "table_name" : "TIPO_LOCALIZAR",
       "tag_name" : "CMDK",
       "tasy_user" : "lpfreitas",
-      "guid" : "a67fda4d-b03b-42a9-91e1-ae1add20441f"
+      "guid" : "44f67de8-57b5-46a4-b2ec-cbf0f9e606ce"
     },
     "server_info" : {
       "charset" : "AMERICAN_AMERICA.AL32UTF8",
@@ -16,20 +16,20 @@
       "instance_name" : "phcdb4"
     },
     "session_info" : {
-      "machine" : "deb943b7aa72",
+      "machine" : "b0b19369d5a2",
       "os_user" : "root",
       "tasy_user" : "lpfreitas"
     },
     "primary_key_values" : [ {
       "column_name" : "NR_SEQUENCIA",
       "data_type" : "NUMBER",
-      "new_value" : 30208,
+      "new_value" : 32720,
       "old_value" : null
     } ],
     "column_values" : [ {
       "column_name" : "DT_ATUALIZACAO_NREC",
       "data_type" : "DATE",
-      "new_value" : "18/05/2026 09:18:27",
+      "new_value" : "07/07/2026 13:37:07",
       "old_value" : null
     }, {
       "column_name" : "NM_USUARIO_NREC",
@@ -39,7 +39,7 @@
     }, {
       "column_name" : "DT_ATUALIZACAO",
       "data_type" : "DATE",
-      "new_value" : "18/05/2026 09:18:27",
+      "new_value" : "07/07/2026 13:37:07",
       "old_value" : null
     }, {
       "column_name" : "NM_USUARIO",
@@ -49,17 +49,17 @@
     }, {
       "column_name" : "DS_LOCALIZADOR",
       "data_type" : "VARCHAR2",
-      "new_value" : "teste luis",
+      "new_value" : "Materiais teste dev",
       "old_value" : null
     }, {
       "column_name" : "DS_SQL",
       "data_type" : "VARCHAR2",
-      "new_value" : "select * from dual",
+      "new_value" : "select *\r\nfrom material\r\nwhere ie_tipo_material <> 8\r\norder by ds_material",
       "old_value" : null
     }, {
       "column_name" : "NR_SEQUENCIA",
       "data_type" : "NUMBER",
-      "new_value" : 30208,
+      "new_value" : 32720,
       "old_value" : null
     }, {
       "column_name" : "IE_RESTRINGE_ESTAB",
@@ -79,14 +79,14 @@
     } ]
   }, {
     "event_info" : {
-      "date" : "18/05/2026 09:36:45",
+      "date" : "07/07/2026 13:42:39",
       "date_format" : "dd/mm/rrrr hh24:mi:ss",
       "dml_operation" : "INSERT",
-      "sequence" : 500012,
+      "sequence" : 500011,
       "table_name" : "TIPO_LOCALIZAR_ATRIBUTO",
       "tag_name" : "CMDK",
       "tasy_user" : "lpfreitas",
-      "guid" : "8616194e-7080-4da1-81e8-8500ab95a173"
+      "guid" : "422988a9-df54-48f0-a07d-2fe63439aa02"
     },
     "server_info" : {
       "charset" : "AMERICAN_AMERICA.AL32UTF8",
@@ -94,25 +94,25 @@
       "instance_name" : "phcdb4"
     },
     "session_info" : {
-      "machine" : "deb943b7aa72",
+      "machine" : "b0b19369d5a2",
       "os_user" : "root",
       "tasy_user" : "lpfreitas"
     },
     "primary_key_values" : [ {
       "column_name" : "NR_SEQUENCIA",
       "data_type" : "NUMBER",
-      "new_value" : 41890,
+      "new_value" : 43492,
       "old_value" : null
     } ],
     "column_values" : [ {
       "column_name" : "NR_SEQUENCIA",
       "data_type" : "NUMBER",
-      "new_value" : 41890,
+      "new_value" : 43492,
       "old_value" : null
     }, {
       "column_name" : "DT_ATUALIZACAO",
       "data_type" : "DATE",
-      "new_value" : "18/05/2026 09:36:35",
+      "new_value" : "07/07/2026 13:37:59",
       "old_value" : null
     }, {
       "column_name" : "NM_USUARIO",
@@ -122,7 +122,7 @@
     }, {
       "column_name" : "NR_SEQ_TIPO_LOCALIZAR",
       "data_type" : "NUMBER",
-      "new_value" : 30208,
+      "new_value" : 32720,
       "old_value" : null
     }, {
       "column_name" : "QT_ALTURA",
@@ -132,7 +132,7 @@
     }, {
       "column_name" : "NM_ATRIBUTO",
       "data_type" : "VARCHAR2",
-      "new_value" : "TESTE_ATRI",
+      "new_value" : "TESTE",
       "old_value" : null
     }, {
       "column_name" : "IE_GRID",
@@ -152,7 +152,7 @@
     }, {
       "column_name" : "DS_ITEM",
       "data_type" : "VARCHAR2",
-      "new_value" : "TESTE_ATRI",
+      "new_value" : "te",
       "old_value" : null
     }, {
       "column_name" : "NR_SEQ_APRESENT",
@@ -162,7 +162,7 @@
     }, {
       "column_name" : "IE_TIPO_ATRIBUTO",
       "data_type" : "VARCHAR2",
-      "new_value" : "VARCHAR2",
+      "new_value" : "NUMBER",
       "old_value" : null
     }, {
       "column_name" : "IE_FOCUS",
@@ -205,11 +205,6 @@
       "new_value" : "N",
       "old_value" : null
     }, {
-      "column_name" : "CD_EXP_ITEM",
-      "data_type" : "NUMBER",
-      "new_value" : 1,
-      "old_value" : null
-    }, {
       "column_name" : "NM_USUARIO_NREC",
       "data_type" : "VARCHAR2",
       "new_value" : "lpfreitas",
@@ -217,13 +212,56 @@
     }, {
       "column_name" : "DT_ATUALIZACAO_NREC",
       "data_type" : "DATE",
-      "new_value" : "18/05/2026 09:36:35",
+      "new_value" : "07/07/2026 13:37:59",
       "old_value" : null
     }, {
       "column_name" : "IE_INTERVALO_DATA",
       "data_type" : "VARCHAR2",
       "new_value" : "N",
       "old_value" : null
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "07/07/2026 13:42:39",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "sequence" : 500012,
+      "table_name" : "TIPO_LOCALIZAR",
+      "tag_name" : "CMDK",
+      "tasy_user" : "lpfreitas",
+      "guid" : "2ff84cd5-6520-4d73-a712-902d355a7553"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "b0b19369d5a2",
+      "os_user" : "root",
+      "tasy_user" : "lpfreitas"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 32720,
+      "old_value" : 32720
+    } ],
+    "column_values" : [ {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "07/07/2026 13:41:31",
+      "old_value" : "07/07/2026 13:37:07"
+    }, {
+      "column_name" : "DS_LOCALIZADOR",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Materiais teste dev teste",
+      "old_value" : "Materiais teste dev"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 32720,
+      "old_value" : 32720
     } ]
   } ]
 }
