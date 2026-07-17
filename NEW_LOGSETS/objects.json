@@ -1,0 +1,36 @@
+{
+  "OBJETO_SISTEMA" : [ {
+    "$operation" : "MERGE",
+    "DS_SCRIPT_CRIACAO" : "CREATE OR REPLACE FUNCTION CMDKLTDA_LUIS_FN_SOMAR(\n   p_num1 NUMBER,\n   p_num2 NUMBER,\n   p_num3 NUMBER\n)\nRETURN  NUMBER\nIS\nv number;\nBEGIN\n RETURN p_num1  + p_num2 + 3;\nEND CMDKLTDA_LUIS_FN_SOMAR;\n/",
+    "NR_SEQUENCIA" : "10182508",
+    "NM_USUARIO" : "lpfreitas",
+    "DS_APLICACAO" : "Tasy",
+    "IE_BANCO" : "Oracle",
+    "IE_TIPO_OBJETO" : "FUNCTION",
+    "DT_ATUALIZACAO" : "08/07/2026 11:03:42",
+    "NM_OBJETO" : "CMDKLTDA_LUIS_FN_SOMAR",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  }, {
+    "$operation" : "MERGE",
+    "DS_SCRIPT_CRIACAO" : "CREATE OR REPLACE PROCEDURE CMDKLTDA_LUIS_PRC_SOMAR(\n   p_num1 NUMBER,\n   p_num2 NUMBER\n)\nIS\nv number;\nBEGIN\nV := CMDKLTDA_LUIS_FN_SOMAR(1,2,5);\nEND CMDKLTDA_LUIS_PRC_SOMAR;\n/",
+    "NR_SEQUENCIA" : "10182509",
+    "NM_USUARIO" : "lpfreitas",
+    "DS_APLICACAO" : "Tasy",
+    "IE_BANCO" : "Oracle",
+    "IE_TIPO_OBJETO" : "PROCEDURE",
+    "DT_ATUALIZACAO" : "08/07/2026 11:07:49",
+    "NM_OBJETO" : "CMDKLTDA_LUIS_PRC_SOMAR",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  }, {
+    "$operation" : "MERGE",
+    "DS_SCRIPT_CRIACAO" : "CREATE OR REPLACE PACKAGE CMDKLTDA_LUIS_PCK AS\n\n    -- Retorna o nome do cliente\n    FUNCTION obter_nome_cliente(\n        p_id_cliente IN NUMBER\n    ) RETURN VARCHAR2;\n\nEND CMDKLTDA_LUIS_PCK;\n/CREATE OR REPLACE PACKAGE BODY CMDKLTDA_LUIS_PCK AS\n\n    FUNCTION obter_nome_cliente(\n        p_id_cliente IN NUMBER\n    ) RETURN VARCHAR2\n    IS\n        v  varchar2(100);\n        n number(20);\n    BEGIN\n        SELECT 'teste'\n          INTO v\n          FROM cliente_tasy\n         WHERE 1= p_id_cliente;\n         \n        --select max(user_id) into v from AE_LOGIN;\n\n\t\t--CMDKLTD_EXECUCAO_PRESCRICAO_PCK.limpar_w_execucao_proc_mat(1,1,1,1,'cmdk-adm');\n\n\t\tselect OBTER_DT_ENTREGA_MD ('','',1,sysdate,1) into n from dual;\n\n        RETURN 'teste';\n\n    END obter_nome_cliente;\n\nEND CMDKLTDA_LUIS_PCK;\n/",
+    "NR_SEQUENCIA" : "10182512",
+    "NM_USUARIO" : "lpfreitas",
+    "DS_APLICACAO" : "Tasy",
+    "IE_BANCO" : "Oracle",
+    "IE_TIPO_OBJETO" : "PACKAGE",
+    "DT_ATUALIZACAO" : "08/07/2026 14:11:22",
+    "NM_OBJETO" : "CMDKLTDA_LUIS_PCK",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  } ]
+}
